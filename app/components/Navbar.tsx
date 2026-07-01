@@ -10,7 +10,8 @@ function Navbar() {
           </div>
           <div className="hidden md:flex space-x-8">
             <NavLink href="#beranda">Beranda</NavLink>
-            <NavLink href="#pengurus">Tentang</NavLink>
+            <NavLink href="#tentang">Tentang</NavLink>
+            <NavLink href="#berita">Berita</NavLink>
             <div className="relative group">
               <button className="text-gray-600 hover:text-emerald-600 transition-colors py-2 text-sm font-medium">
                 PHBI
@@ -19,8 +20,7 @@ function Navbar() {
                 Peringatan Hari Besar Islam
               </div>
             </div>
-            <NavLink href="#remaja">Remaja</NavLink>
-            <NavLink href="#wanita">Wanita</NavLink>
+            <NavLink href="#kegiatan">Kegiatan</NavLink>
             <div className="relative group">
               <button className="text-gray-600 hover:text-emerald-600 transition-colors py-2 text-sm font-medium">
                 ZIS

@@ -18,7 +18,7 @@ function BeritaTerkini() {
   ];
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto" id="berita">
       <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
         Berita Terkini
       </h2>

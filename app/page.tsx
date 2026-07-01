@@ -2,7 +2,8 @@ import BeritaTerkini from "./components/BeritaTerkini";
 import Carousel from "./components/Carousel";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Sambutan from "./components/Sambutan";
+import Sambutan from "./components/Greeting";
+import Tentang from "./components/About";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
 
       {/* Sambutan Ketua DKM */}
       <Sambutan />
+
+      {/* Carita Musholla */}
+      <Tentang />
 
       {/* Berita Terkini */}
       <BeritaTerkini />
