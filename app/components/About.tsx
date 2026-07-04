@@ -47,12 +47,11 @@ const Tentang = () => {
       className="flex flex-col items-center justify-center min-h-screen py-10"
       id="tentang"
     >
-      <h2 className="text-2xl font-semibold mb-8">Dewan Kemakmuran Musholla</h2>
       <div className="bg-blue-50 py-24 sm:py-32">
         <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-xl">
-            <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
-              Meet our leadership
+            <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-600 sm:text-4xl">
+              DKM Hidayatussalaam
             </h2>
             <p className="mt-6 text-lg/8 text-gray-400">
               We’re a dynamic group of individuals who are passionate about what
@@ -75,7 +74,7 @@ const Tentang = () => {
                     height={64}
                   />
                   <div>
-                    <h3 className="text-base/7 font-semibold tracking-tight text-white">
+                    <h3 className="text-base/7 font-semibold tracking-tight text-green-600">
                       {person.name}
                     </h3>
                     <p className="text-sm/6 font-semibold text-indigo-400">

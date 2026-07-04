@@ -1,3 +1,11 @@
+'use client';
+
+const navTo = (href: string) => {
+  if (typeof window !== "undefined") {
+    window.location.href = href;
+  }
+}
+
 function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
@@ -13,7 +21,7 @@ function Navbar() {
             <NavLink href="#tentang">Tentang</NavLink>
             <NavLink href="#berita">Berita</NavLink>
             <div className="relative group">
-              <button className="text-gray-600 hover:text-emerald-600 transition-colors py-2 text-sm font-medium">
+              <button className="text-gray-600 hover:text-emerald-600 transition-colors py-2 text-sm font-medium" onClick={() => navTo("#bigdays")}>
                 PHBI
               </button>
               <div className="absolute left-1/2 -translate-x-1/2 mt-2 px-3 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
@@ -22,14 +30,14 @@ function Navbar() {
             </div>
             <NavLink href="#kegiatan">Kegiatan</NavLink>
             <div className="relative group">
-              <button className="text-gray-600 hover:text-emerald-600 transition-colors py-2 text-sm font-medium">
+              <button className="text-gray-600 hover:text-emerald-600 transition-colors py-2 text-sm font-medium" onClick={() => navTo("#zis")}>
                 ZIS
               </button>
               <div className="absolute left-1/2 -translate-x-1/2 mt-2 px-3 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                 Zakat, Infaq, Sodaqoh
               </div>
             </div>
-            <NavLink href="#sponsor">Dukungan</NavLink>
+            <NavLink href="#dukungan">Dukungan</NavLink>
             <NavLink href="#kontak">Kontak</NavLink>
           </div>
           <button className="md:hidden text-gray-600">

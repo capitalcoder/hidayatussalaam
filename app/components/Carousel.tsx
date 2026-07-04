@@ -60,7 +60,7 @@ function Carousel() {
 
   return (
     <>
-      <section className="pt-16">
+      <section id="beranda" className="pt-16">
         <div className="relative overflow-hidden">
           <div
             className="flex transition-transform duration-700 ease-in-out"

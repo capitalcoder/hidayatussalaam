@@ -1,7 +1,6 @@
 function Sambutan() {
   return (
     <section
-      id="beranda"
       className="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto"
     >
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
